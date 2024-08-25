@@ -26,13 +26,13 @@ const Navbar = () => {
   return (
     <header className='w-full shadow-md shadow-slate-800 sticky header'>
       <nav className='flex w-full bg-black py-2 px-10'>
-        <img src={appleImg} alt="apple" className='h-16 logo' />
+        <a href='/'><img src={appleImg} alt="apple" className='h-16 logo' /></a>
         <div className='flex flex-1 justify-center max-sm:hidden items-center'>
           {navLists.map((nav, i) => (
-            <div key={i}
+            <a key={i}
               className='px-5 text-2xl tracking-wider cursor-pointer
                      text-white hover:text-gray  
-                    transition-all font-pirata opacity-0 intro-slider'>{nav}</div>
+                    transition-all font-pirata opacity-0 intro-slider' href={nav[1]}>{nav[0]}</a>
           ))}
         </div>
         {/* <div className='flex items-baseline gap-7 max-sm:justify-end max-sm:flex-1'>
