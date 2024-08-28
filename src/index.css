@@ -125,3 +125,14 @@ canvas {
     @apply opacity-0 translate-y-[100px]
   }
 }
+
+@layer components{
+  .text-stroke{
+    -webkit-text-fill-color: rgba(0, 0, 0, 0.537);
+    -webkit-text-stroke-color: aliceblue;
+    -webkit-text-stroke-width: 2px;
+  }
+  .perspective{
+    perspective: 2200px;
+  }
+}
