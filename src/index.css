@@ -135,4 +135,42 @@ canvas {
   .perspective{
     perspective: 2200px;
   }
+  
+}
+
+@layer components{
+  .wheelimg{
+    height: 150px;
+   position:fixed;
+   margin-top:-830px;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius: 50%;
+    z-index: 100;
+    animation: spin 10s linear infinite;
+  }
+  
+  @keyframes spin{
+    0%{
+        transform:  rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+
+  }
+  
+}
+
+@layer components{
+
+  
+
+  .left{
+    color: white;
+  }
+  .title{
+    font-size: xxx-large;
+  }
+  
 }
