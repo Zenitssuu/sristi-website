@@ -31,7 +31,12 @@ import chip from "/assets/images/chip.jpeg";
 import frame from "/assets/images/frame.png";
 
 import compass2 from "/assets/images/compass3.png";
+import code from "/assets/images/code.jpg";
+import maze from "/assets/images/maze.jpg";
+import wheel from "/assets/images/wheel.png";
 
+
+export const wheelBG=wheel;
 export const heroVideo = hmv;
 export const smallHeroVideo = smallmv;
 export const highlightFirstVideo = highlightFirstmv;
@@ -60,3 +65,5 @@ export const chipImg = chip;
 export const frameImg = frame;
 
 export const compassBG=compass2;
+export const codeimg=code;
+export const mazeimg=maze;
