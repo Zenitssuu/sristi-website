@@ -30,7 +30,7 @@ import explore2 from "/assets/images/explore2.jpg";
 import chip from "/assets/images/chip.jpeg";
 import frame from "/assets/images/frame.png";
 
-import compass2 from "/assets/images/compass3.png";
+import compass2 from "/assets/images/compass2.png";
 import code from "/assets/images/code.jpg";
 import maze from "/assets/images/maze.jpg";
 import wheel from "/assets/images/wheel.png";
