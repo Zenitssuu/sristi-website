@@ -49,12 +49,12 @@ const EventsIntro = () => {
       ></div>
       <section className="">
         <div ref={imgcontainer} className="img-container perspective flex items-center justify-center h-screen w-screen">
-          <img ref={img} className="img h-[500px] -mt-20" src={compassBG} alt="" />
+          <img ref={img} className="img h-[500px] -mt-20 drop-shadow-[0_35px_35px_rgba(0,0,0,1)]" src={compassBG} alt="" />
           
           
           <div className="absolute flex flex-col items-center justify center">
-            <h1 ref={text1} className="text-[120px] font-pirata -mt-20">
-              <span className="text-stroke ">Let the Loot</span> Begin!
+            <h1 ref={text1} className="text-[120px] font-pirata -mt-20 drop-shadow-[0_35px_35px_rgba(0,0,0,1)]">
+              <span className="text-stroke">Let the Loot</span> Begin!
             </h1>
           </div>
         </div>
