@@ -6,7 +6,7 @@ import './events.css'
 
 const Events = () => {
 
-  const [videoUrl, setVideoUrl] = useState("../public/assets/videos/Ocean.mp4");
+  const [videoUrl, setVideoUrl] = useState("/assets/videos/Ocean.mp4");
 
   return (
     <div className="bg-black">
