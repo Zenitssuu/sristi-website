@@ -4,6 +4,7 @@ import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 import { useLayoutEffect } from "react";
 import EventsName from "./EventsName";
+import { useGSAP } from "@gsap/react";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -38,15 +39,16 @@ const EventsIntro = () => {
     
     return () => ctx.revert();
   }, []);
+  
   return (
     <div className="relative">
       <div
         ref={bg1}
         className="bg bg-[#141414] absolute h-screen w-screen z-[-1]"
       ></div>
-      <section>
-        <div ref={imgcontainer} className="img-container perspective flex items-center justify-center h-screen w-screen">
-          <img ref={img} className="img h-[500px] -mt-20" src={compassBG} alt="" />
+      <section >
+        <div  ref={imgcontainer} className="img-container perspective flex items-center justify-center h-screen w-screen">
+          <img  ref={img} className="img h-[500px] -mt-20" src={compassBG} alt="" />
           <div className="absolute flex flex-col items-center justify center">
             <h1 ref={text1} className="text-[120px] font-pirata -mt-20">
               <span className="text-stroke">Let the Loot</span> Begin!
