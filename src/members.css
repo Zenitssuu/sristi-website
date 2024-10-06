@@ -24,27 +24,61 @@
     margin: 20px;
     border-radius: 50%;
 }
-.heading{
+.heading3{
     display: flex;
     position: relative;
     justify-content: center;
     align-items: center;
-    margin: 20px;
-    margin-top: 80px;
+    height: 150px;
 }
-.ph{
+.heading2{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}
+.ph3{
+    position: absolute;
+    z-index: 0.15;
+    height: 25%;
+    width:25%;
+}
+.ph2{
     position:absolute;
     z-index: 1.5;
     height: 80px;
     width: 120px;
-    margin-bottom: 55px;
-    margin-left: 250px;
+    margin-bottom: 2px;
+    margin-left: 268px;
+    transform: rotate(10deg);
+}
+.ph1{
+    position: absolute;
+    z-index: 0.15;
+    height: 25%;
+    width:25%;
+    
+}
+.ph4{
+    position:absolute;
+    z-index: 1.5;
+    height: 80px;
+    width: 120px;
+    margin-bottom: 2px;
+    margin-left: 268px;
+    transform: rotate(10deg);
+}
+.hh{
+    position: absolute;
+    margin-top: 40px;
+    z-index: 1;
 }
 .iii{
     height: 100%;
     width: 100%;
 }
-.bigcard{
+.bigcard,.bigcard2{
     height: 300px;
     width: 300px;
     display: flex;
