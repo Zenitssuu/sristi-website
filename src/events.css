@@ -1,0 +1,198 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .shadow-btn {
+    position: relative;
+    width: 350px;
+    height: 50px;
+    border: none;
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: "Tilt Neon", sans-serif;
+    text-transform: uppercase;
+
+    cursor: pointer;
+    border-radius: 7px;
+    border: 4px solid crimson;
+    background-color: transparent;
+    color: crimson;
+    text-shadow: 0 0 20px crimson;
+    box-shadow: 0 0px 25px #dc143cb4, inset 0 0 10px #f50000b0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: flicker 0.5s infinite alternate;
+  }
+  .shadow-btn-2 {
+    position: relative;
+    width: 350px;
+    height: 50px;
+    border: none;
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: "Tilt Neon", sans-serif;
+    text-transform: uppercase;
+    color: rgb(20, 130, 220);
+    cursor: pointer;
+    border-radius: 7px;
+    border: 4px solid rgb(20, 130, 220);
+    background-color: transparent;
+    color: gb(20, 130, 220);
+    text-shadow: 0 0 20px rgb(20, 130, 220);
+    box-shadow: 0 0px 25px #1493dcb4, inset 0 0 10px #00acf5b0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: flicker 0.5s infinite alternate;
+  }
+  .shadow-btn:hover {
+    color: #222;
+    box-shadow: 0 0 110px crimson;
+    background-color: crimson;
+    animation: none;
+  }
+  .shadow-btn-2:hover {
+    color: #222;
+    box-shadow: 0 0 110px rgb(20, 130, 220);
+    background-color: rgb(20, 130, 220);
+    animation: none;
+  }
+
+  .shadow-btn::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 700px;
+    height: 100px;
+    background: linear-gradient(to top, #dc143c4d, #00060e00);
+    opacity: 0.5;
+    transform: scaleY(-1.5) perspective(250px) rotateX(135deg);
+    transform-origin: top;
+    z-index: -1;
+    pointer-events: none;
+    filter: blur(1px);
+    border-radius: 50%;
+  }
+
+  .shadow-btn-2::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 700px;
+    height: 100px;
+    background: linear-gradient(to top, #1493dc88, #00060e00);
+    opacity: 0.5;
+    transform: scaleY(-1.5) perspective(250px) rotateX(135deg);
+    transform-origin: top;
+    z-index: -1;
+    pointer-events: none;
+    filter: blur(1px);
+    border-radius: 50%;
+  }
+
+  .shadow-btn:hover::before {
+    content: "";
+    position: absolute;
+    top: 150%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: crimson;
+    transform: perspective(0.7em) rotateX(16deg) scale(1.5, 0.9);
+    filter: blur(15px);
+  }
+  .shadow-btn-2:hover::before {
+    content: "";
+    position: absolute;
+    top: 150%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(20, 130, 220);
+    transform: perspective(0.7em) rotateX(16deg) scale(1.5, 0.9);
+    filter: blur(15px);
+  }
+
+  @keyframes flicker {
+    0%,
+    100% {
+      opacity: 1;
+    }
+    5% {
+      opacity: 0;
+    }
+    15% {
+      opacity: 0.4;
+    }
+    0% {
+      opacity: 1;
+    }
+    85% {
+      opacity: 1;
+    }
+    90% {
+      opacity: 1;
+    }
+    95% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+  .card-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .event-card{
+    display:flex;
+    background: red;
+    width:70px;
+    height:200px;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    border-radius: 60px;
+    min-width:70px;
+    background-size: auto 110%;
+    transition: .5s ease;
+  }
+  .event-card:hover{
+    min-width:400px;
+    background-size: auto 110%;
+    border-radius: 10px;
+  }
+  .card-item{
+    height:10px;
+    background-color: aqua;
+  }
+  .card-name{
+    transform: rotate(-90deg);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+  }
+  .event-card:hover .card-name {
+    transform: rotate(0deg); /* On hover, rotate the text back to horizontal */
+    transition: 0.2s ease;
+  }
+
+  .card-description {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease; /* Smooth transition for visibility */
+  }
+  
+  /* Show the description when hovering over the card */
+  .event-card:hover .card-description {
+    opacity: 1;
+    visibility: visible;
+    
+  }
+}
