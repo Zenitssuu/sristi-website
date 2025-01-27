@@ -15,32 +15,30 @@ import {
     {
       id: 1,
       textLists: [
-        "Event 1",
-        "Short description 1",
-        "Short description 2",
+        "Code Chronicles",
+        "Compete against the brightest minds in the ultimate coding battle.",
       ],
       video: highlightFirstVideo,
       videoDuration: 4,
     },
     {
       id: 2,
-      textLists: ["Event 2", "Small tag line"],
+      textLists: ["Mazemerize", "Build a line-following robot with precision and speed."],
       video: highlightSecondVideo,
       videoDuration: 5,
     },
     {
       id: 3,
       textLists: [
-        "Event 3",
-        "More taglines",
-        "More description",
+        "Robo Soccer",
+        "Design and program a robot to Strategize, compete, and score goals in an electrifying robotic match!"
       ],
       video: highlightThirdVideo,
       videoDuration: 2,
     },
     {
       id: 4,
-      textLists: ["Event 4", "Another tagline"],
+      textLists: ["TechXibition", "Showcase your innovative projects and groundbreaking ideas."],
       video: highlightFourthVideo,
       videoDuration: 3.63,
     },

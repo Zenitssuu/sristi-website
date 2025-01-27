@@ -4,7 +4,7 @@ import { wheelBG } from '../utils';
 const EventWheel = () => {
   return (
     <div>
-        <img src={wheelBG} className='wheelimg' alt=""/>
+        <img src={wheelBG} className='wheelimg flex' alt="wheel"/>
     </div>
   )
 }

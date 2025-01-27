@@ -19,6 +19,7 @@ const VideoCarousel = () => {
     videoId: 0,
     isLastVideo: false,
     isPlaying: false,
+    loop: true,
   });
 
   const [loadedData, setLoadedData] = useState([]);
@@ -187,7 +188,7 @@ const VideoCarousel = () => {
 
               <div className="absolute top-12 left-[5%] z-10">
                 {list.textLists.map((text, i) => (
-                  <p key={i} className="md:text-2xl text-xl font-medium">
+                  <p key={i} className="md:text-xxs text-xl font-semibold text-slate-300">
                     {text}
                   </p>
                 ))}

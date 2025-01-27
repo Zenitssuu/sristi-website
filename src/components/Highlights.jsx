@@ -3,6 +3,8 @@ import React from 'react'
 import gsap from 'gsap'
 import VideoCarousel from './VideoCarousel'
 
+import { BrowserRouter, Route, Routes, Link } from "react-router-dom";
+
 const Highlights = () => {
     useGSAP(() => {
         gsap.to('#title', {
@@ -27,7 +29,7 @@ const Highlights = () => {
                     Highlights
                 </h1>
                 <div className='flex flex-wrap item-end gap-5'>
-                    <p className='link'>View all events</p>
+                    <a href = "/Events" className='link'>View all events</a>
                 </div>
             </div>
             <VideoCarousel/>

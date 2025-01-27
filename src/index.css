@@ -142,10 +142,13 @@ canvas {
   .wheelimg{
     height: 150px;
    position:fixed;
-   margin-top:-830px;
+   left: 0px;
+   bottom: 0px;
+   border-radius: 50%;
+   /* margin-top:-830px;
     margin-left:auto;
     margin-right:auto;
-    border-radius: 50%;
+    border-radius: 50%; */
     z-index: 100;
     animation: spin 10s linear infinite;
   }
