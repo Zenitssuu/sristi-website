@@ -1,4 +1,4 @@
-export const EventItem=[
+export const EventItem1=[
     {id:'1', name:'CSS Battle', description:'ABC', coordinators:[{coordname:'Siddhant Saiba', coordphone:'123'}, {coordname: 'Surajit Maity', coordphone:'123'}, {coordname:'Rishav Das', coordphone:'123'}]},
     {id:'2', name:'Code Chronicles', description:'ABC', coordinators:[{coordname:'Siddhant Saiba', coordphone:'123'}, {coordname: 'Surajit Maity', coordphone:'123'}, {coordname:'Rishav Das', coordphone:'123'}]},
     {id:'3', name:'Code Hunt', description:'ABC', coordinators:[{coordname:'Siddhant Saiba', coordphone:'123'}, {coordname: 'Surajit Maity', coordphone:'123'}, {coordname:'Rishav Das', coordphone:'123'}]},
@@ -9,6 +9,9 @@ export const EventItem=[
     {id:'8', name:'Mazemerize', description:'ABC', coordinators:[{coordname:'Siddhant Saiba', coordphone:'123'}, {coordname: 'Surajit Maity', coordphone:'123'}, {coordname:'Rishav Das', coordphone:'123'}]},
     {id:'9', name:'Robosoccer', description:'ABC', coordinators:[{coordname:'Siddhant Saiba', coordphone:'123'}, {coordname: 'Surajit Maity', coordphone:'123'}, {coordname:'Rishav Das', coordphone:'123'}]},
     {id:'10', name:'G-Mun', description:'ABC', coordinators:[{coordname:'Siddhant Saiba', coordphone:'123'}, {coordname: 'Surajit Maity', coordphone:'123'}, {coordname:'Rishav Das', coordphone:'123'}]},
+]
+
+export const EventItem2=[
     {id:'11', name:'JCTF', description:'ABC', coordinators:[{coordname:'Siddhant Saiba', coordphone:'123'}, {coordname: 'Surajit Maity', coordphone:'123'}, {coordname:'Rishav Das', coordphone:'123'}]},
     {id:'12', name:'Chess Master', description:'ABC', coordinators:[{coordname:'Siddhant Saiba', coordphone:'123'}, {coordname: 'Surajit Maity', coordphone:'123'}, {coordname:'Rishav Das', coordphone:'123'}]},
     {id:'13', name:'Adventure Blitz', description:'ABC', coordinators:[{coordname:'Siddhant Saiba', coordphone:'123'}, {coordname: 'Surajit Maity', coordphone:'123'}, {coordname:'Rishav Das', coordphone:'123'}]},
@@ -20,8 +23,6 @@ export const EventItem=[
     {id:'19', name:'Valorant', description:'ABC', coordinators:[{coordname:'Siddhant Saiba', coordphone:'123'}, {coordname: 'Surajit Maity', coordphone:'123'}, {coordname:'Rishav Das', coordphone:'123'}]},
     {id:'20', name:'BGMI', description:'ABC', coordinators:[{coordname:'Siddhant Saiba', coordphone:'123'}, {coordname: 'Surajit Maity', coordphone:'123'}, {coordname:'Rishav Das', coordphone:'123'}]},
     {id:'21', name:'PES', description:'ABC', coordinators:[{coordname:'Siddhant Saiba', coordphone:'123'}, {coordname: 'Surajit Maity', coordphone:'123'}, {coordname:'Rishav Das', coordphone:'123'}]},
-    {id:'22', name:'Circuitrix', description:'ABC', coordinators:[{coordname:'Siddhant Saiba', coordphone:'123'}, {coordname: 'Surajit Maity', coordphone:'123'}, {coordname:'Rishav Das', coordphone:'123'}]},
-    {id:'23', name:'EggDrop', description:'ABC', coordinators:[{coordname:'Siddhant Saiba', coordphone:'123'}, {coordname: 'Surajit Maity', coordphone:'123'}, {coordname:'Rishav Das', coordphone:'123'}]},
     {id:'24', name:'Mock Trading', description:'ABC', coordinators:[{coordname:'Siddhant Saiba', coordphone:'123'}, {coordname: 'Surajit Maity', coordphone:'123'}, {coordname:'Rishav Das', coordphone:'123'}]},
     {id:'25', name:'Photography', description:'ABC', coordinators:[{coordname:'Siddhant Saiba', coordphone:'123'}, {coordname: 'Surajit Maity', coordphone:'123'}, {coordname:'Rishav Das', coordphone:'123'}]},
 ]

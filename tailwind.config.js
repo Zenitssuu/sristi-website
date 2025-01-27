@@ -15,7 +15,11 @@ export default {
       },
       fontFamily: {
         'pirata': ["Pirata One", 'system-ui']
-      }
+      },
+      boxShadow: {
+        'neon-outer': '0 0 25px #dc143c', // Outer red glow
+        'neon-inner': 'inset 0 0 10px #f50000b0', // Inner red glow
+      },
     },
   },
   plugins: [],
